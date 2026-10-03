@@ -1,0 +1,6 @@
+{
+  "models": ["qwen3:1.7b", "qwen3:4b", "qwen3:8b"],
+  "repeats": 3,
+  "temperature": [0.0],
+  "seed": 42
+}

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "small-model-evals"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[project.scripts]
+small-model-evals = "small_model_evals.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["small_model_evals*"]
